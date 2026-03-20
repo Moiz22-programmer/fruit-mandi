@@ -1,0 +1,15 @@
+const menuItems = [
+  { key: 'dashboard', icon: <DashboardOutlined />, label: 'Dashboard', path: '/admin' },
+  { key: 'ledger', icon: <BookOutlined />, label: 'Ledger/Transactions', path: '/admin/ledger' },
+  { key: 'beparis', icon: <TeamOutlined />, label: 'Beyparis', path: '/admin/beparis' },
+  { key: 'customers', icon: <UserOutlined />, label: 'Customers', path: '/admin/customers' },
+  { key: 'udhaar', icon: <DollarOutlined />, label: 'Udhaar (Due)', path: '/admin/udhaar' },
+  { key: 'partner-copybooks', icon: <CopyOutlined />, label: 'Partner Copybooks', path: '/admin/partner-copybooks' },
+  { key: 'invoices', icon: <FileTextOutlined />, label: 'Invoices & Reports', path: '/admin/invoices' },
+  { key: 'inventory', icon: <ShoppingOutlined />, label: 'Inventory', path: '/admin/inventory' },
+  { key: 'ecommerce', icon: <ShopOutlined />, label: 'E‑Commerce', path: '/admin/ecommerce' },
+  { key: 'employees', icon: <UsergroupAddOutlined />, label: 'Employees', path: '/admin/employees' },
+  { key: 'finance', icon: <WalletOutlined />, label: 'Finance', path: '/admin/finance' },
+  { key: 'notifications', icon: <BellOutlined />, label: 'Notifications', path: '/admin/notifications' },
+  { key: 'settings', icon: <SettingOutlined />, label: 'Settings', path: '/admin/settings' },
+];
