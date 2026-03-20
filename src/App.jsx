@@ -2,9 +2,10 @@ import { Button } from 'antd';
 
 function App() {
   return (
-    <div>
+    <div style={{ padding: '20px' }}>
       <Button type="primary">Hello Mandi</Button>
     </div>
   );
 }
+
 export default App;
